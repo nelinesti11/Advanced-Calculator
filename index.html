@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<head>
+    <title>Multipurpose Calculatorr</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Advanced Calculatorr</h1>
+    <form action="calculator.php" method="post">
+        <fieldset>
+            <legend>Enter Your Values</legend>
+            <input type="number" name="num1" step="any" required placeholder="Enter first number">
+            <input type="number" name="num2" step="any" placeholder="Enter second number">
+        </fieldset>
+        <fieldset>
+            <legend>Select Operation</legend>
+            <select name="operation">
+                <option value="add">Addition</option>
+                <option value="subtract">Subtraction</option>
+                <option value="multiply">Multiplication</option>
+                <option value="divide">Division</option>
+                <option value="exponentiation">Exponentiation</option>
+                <option value="percentage">Percentage</option>
+                <option value="sqrt">Square Root</option>
+                <option value="logarithm">Logarithm</option>
+            </select>
+        </fieldset>
+        <button type="submit">Calculate</button>
+    </form>
+</body>
+</html>
